@@ -1,7 +1,9 @@
+<!--页面选择-->
 <basics wx:if="{{PageCur=='basics'}}"></basics>
 <component wx:if="{{PageCur=='component'}}"></component>
 <plugin wx:if="{{PageCur=='plugin'}}"></plugin>
 <about wx:if="{{PageCur=='about'}}"></about>
+<!--底部导航栏图标展示-->
 <view class="cu-bar tabbar bg-white shadow foot">
   <view class="action" bindtap="NavChange" data-cur="basics">
     <view class='cuIcon-cu-image'>

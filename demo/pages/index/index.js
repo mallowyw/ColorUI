@@ -7,6 +7,7 @@ Page({
       PageCur: e.currentTarget.dataset.cur
     })
   },
+  ///////////////////////转发///////////////////
   onShareAppMessage() {
     return {
       title: 'ColorUI-高颜值的小程序UI组件库',
