@@ -7,6 +7,8 @@ Component({
     forksCount: 0,
     visitTotal: 0,
   },
+  ////在组件完全初始化完毕并且进入页面节点树后， attached生命周期被触发。
+  ////此时， this.data 已被初始化为组件的当前值，绝大多数初始化工作可以在这个时机进行。
   attached() {
     console.log("success")
     let that = this;

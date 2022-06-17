@@ -1,3 +1,4 @@
+////获取到小程序全局唯一的APP实例
 const app = getApp();
 Page({
   data: {
